@@ -7,7 +7,7 @@ import (
 func TestMain(T *testing.T){
 
 	res := GetMessage()
-	if res != "Hello 🗺️ !" {
+	if res != "Hello 🗺️!" {
 		T.Fail()
 	}
 
