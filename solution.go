@@ -8,7 +8,7 @@ import (
 
 func GetMessage() string {
 
-	m := emoji.Sprint("Hello :world_map:!")
+	m := emoji.Sprint("Hello :world_map: !")
 	return m
 
 }
