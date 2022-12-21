@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func Test_GetMessage(T *testing.T){
+func TestGetMessage(T *testing.T){
 
 	res := GetMessage()
 	if res != "Hello 🗺️ !" {
